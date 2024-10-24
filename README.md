@@ -1,6 +1,4 @@
-### GEWIS Eslint Config
-
-# ESLint Configuration
+# GEWIS Eslint Config
 
 This repository contains a shared ESLint configuration for use across all GEWIS projects. It aims to enforce consistent coding standards and code quality.
 
