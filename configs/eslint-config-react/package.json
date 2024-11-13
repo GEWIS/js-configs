@@ -1,17 +1,20 @@
 {
   "name": "@gewis/eslint-config-react",
-  "description": "React ESLint configuration for GEWIS projects",
   "version": "0.0.0",
+  "description": "React ESLint configuration for GEWIS projects",
+  "homepage": "https://github.com/GEWIS/js-configs#readme",
+  "bugs": {
+    "url": "https://github.com/GEWIS/js-configs/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GEWIS/js-configs.git"
   },
-  "author": "GEWIS",
   "license": "AGPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/GEWIS/js-configs/issues"
+  "author": "GEWIS",
+  "exports": {
+    ".": "./index.mjs"
   },
-  "homepage": "https://github.com/GEWIS/js-configs#readme",
   "dependencies": {
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.2",

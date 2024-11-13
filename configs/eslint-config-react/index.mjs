@@ -1,6 +1,6 @@
-import reactPlugin from 'eslint-plugin-react'
-import reactHooks from 'eslint-plugin-react-hooks'
-import reactA11y from 'eslint-plugin-jsx-a11y'
+import reactPlugin from 'eslint-plugin-react';
+import reactHooks from 'eslint-plugin-react-hooks';
+import reactA11y from 'eslint-plugin-jsx-a11y';
 
 const config = [
   // React plugin
@@ -8,13 +8,13 @@ const config = [
     languageOptions: {
       parserOptions: {
         ecmaFeatures: {
-          jsx: true
+          jsx: true,
         },
         jsxPragma: null,
-      }
+      },
     },
     plugins: {
-      "react": reactPlugin,
+      react: reactPlugin,
     },
     settings: {
       react: {
@@ -24,32 +24,32 @@ const config = [
   },
   // Default rules
   {
-    files: ['src/**/*.tsx'],
+    files: ['**/*.tsx'],
     rules: {
       ...reactPlugin.configs.flat.recommended.rules,
       ...reactPlugin.configs.flat['jsx-runtime'].rules,
-    }
+    },
   },
   // A11y
   {
-    files: ['src/**/*.tsx'],
+    files: ['**/*.tsx'],
     plugins: {
-      'jsx-a11y': reactA11y
+      'jsx-a11y': reactA11y,
     },
     rules: {
-      ...reactA11y.flatConfigs.recommended.rules
-    }
+      ...reactA11y.flatConfigs.recommended.rules,
+    },
   },
   // React hooks
   {
-    files: ['src/**/*.tsx'],
+    files: ['**/*.tsx'],
     plugins: {
       'react-hooks': reactHooks,
     },
     rules: {
-      ...reactHooks.configs.recommended.rules
+      ...reactHooks.configs.recommended.rules,
     },
   },
 ];
 
-export { config as eslintConfig }
+export { config as eslintConfig };
