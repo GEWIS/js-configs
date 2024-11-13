@@ -5,7 +5,7 @@ import importPlugin from 'eslint-plugin-import';
 import {includeIgnoreFile} from '@eslint/compat';
 import path from 'node:path';
 
-export default [
+const config = [
   includeIgnoreFile(path.resolve('.gitignore')),
   eslint.configs.recommended,
   ...tsEslint.configs.recommendedTypeChecked,
@@ -55,3 +55,5 @@ export default [
     }
   }
 ];
+
+export { config as eslintConfig }

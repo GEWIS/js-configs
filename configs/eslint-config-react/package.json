@@ -1,12 +1,7 @@
 {
-  "name": "@gewis/js-configs",
-  "description": "JavaScript configurations for GEWIS projects",
-  "main": "eslint.common.mjs",
+  "name": "@gewis/eslint-config-react",
+  "description": "React ESLint configuration for GEWIS projects",
   "version": "0.0.0",
-  "scripts": {
-    "lint": "eslint .",
-    "lint-fix": "eslint . --fix"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GEWIS/js-configs.git"
@@ -17,9 +12,13 @@
     "url": "https://github.com/GEWIS/js-configs/issues"
   },
   "homepage": "https://github.com/GEWIS/js-configs#readme",
-  "devDependencies": {
-    "eslint": "^9.12.0",
-    "lerna": "^8.1.9"
+  "dependencies": {
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "5.1.0-rc-7c8e5e7a-20241101"
+  },
+  "peerDependencies": {
+    "eslint": "*"
   },
   "packageManager": "yarn@4.5.1"
 }

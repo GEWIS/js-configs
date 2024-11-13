@@ -2,7 +2,7 @@ import vuePlugin from 'eslint-plugin-vue';
 import tsEslint from 'typescript-eslint';
 import vueParser from 'vue-eslint-parser';
 
-export default [
+const config = [
   ...vuePlugin.configs['flat/recommended'],
   {
     languageOptions: {
@@ -40,3 +40,5 @@ export default [
     }
   },
 ];
+
+export { config as vueConfig }

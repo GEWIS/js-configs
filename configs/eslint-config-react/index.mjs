@@ -2,9 +2,7 @@ import reactPlugin from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactA11y from 'eslint-plugin-jsx-a11y'
 
-import {fixupPluginRules} from '@eslint/compat';
-
-export default [
+const config = [
   // React plugin
   {
     languageOptions: {
@@ -53,3 +51,5 @@ export default [
     },
   },
 ];
+
+export { config as eslintConfig }

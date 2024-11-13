@@ -1,0 +1,33 @@
+{
+  "name": "@gewis/eslint-config-typescript",
+  "version": "0.0.0",
+  "description": "TypeScript ESLint configuration for GEWIS projects",
+  "homepage": "https://github.com/GEWIS/js-configs#readme",
+  "bugs": {
+    "url": "https://github.com/GEWIS/js-configs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GEWIS/js-configs.git"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": "GEWIS",
+  "files" : [
+    "index.mjs"
+  ],
+  "dependencies": {
+    "@eslint/compat": "^1.2.2",
+    "@eslint/js": "^9.12.0",
+    "@types/eslint__js": "^8.42.3",
+    "@typescript-eslint/parser": "^8.10.0",
+    "eslint": "^9.12.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.31.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.10.0"
+  },
+  "peerDependencies": {
+    "eslint": "*"
+  },
+  "packageManager": "yarn@4.5.1"
+}
