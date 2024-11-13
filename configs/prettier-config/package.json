@@ -1,0 +1,28 @@
+{
+  "name": "@gewis/prettier-config",
+  "version": "0.0.0",
+  "description": "Prettier configuration for GEWIS projects",
+  "homepage": "https://github.com/GEWIS/js-configs#readme",
+  "bugs": {
+    "url": "https://github.com/GEWIS/js-configs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GEWIS/js-configs.git"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": "GEWIS",
+  "files" : [
+    "index.mjs"
+  ],
+  "dependencies": {
+    "@vue/eslint-config-prettier": "^10.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.3"
+  },
+  "peerDependencies": {
+    "eslint": "*",
+    "prettier": "*"
+  },
+  "packageManager": "yarn@4.5.1"
+}

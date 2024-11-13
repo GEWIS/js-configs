@@ -22,15 +22,15 @@ The package provides sharable configurations for [ESLint](https://eslint.org/doc
 In your project's root directory, create or update the `eslint.config.{js,mjs,cjs,ts,mts,cts}` file to extend this configuration. 
 You can pick a combination of various configuration files:
 
-- `eslint.common.mjs`
+- `index.mjs`
 - `eslint.vue.mjs`
-- `eslint.prettier.mjs`
+- `index.mjs`
 - `eslint.react.mjs`
 
 ```javascript
-import eslint from '@gewis/eslint-config/eslint.common.mjs';
+import eslint from '@gewis/eslint-config/index.mjs';
 import vue from '@gewis/eslint-config/eslint.vue.mjs';
-import prettier from '@gewis/eslint-config/eslint.prettier.mjs';
+import prettier from '@gewis/eslint-config/index.mjs';
 
 export default [...eslint, ...vue, ...prettier];
 ```
@@ -44,10 +44,10 @@ of the shared configurations in your config file. It is also possible to add you
 ### Prettier Configuration
 
 In your project's root directory, create or update the `.prettierrc.mjs` file to extend this configuration. 
-There is a single [shared prettier configuration](https://prettier.io/docs/en/sharing-configurations) available; `prettier.mjs`.
+There is a single [shared prettier configuration](https://prettier.io/docs/en/sharing-configurations) available; `prettier.config.mjs`.
 
 ```javascript
-import prettier from '@gewis/eslint-config/prettier.mjs';
+import prettier from '@gewis/eslint-config/prettier.config.mjs';
 
 /**
  * @type {import("prettier").Config}

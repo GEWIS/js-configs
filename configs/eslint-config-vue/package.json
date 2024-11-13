@@ -1,0 +1,28 @@
+{
+  "name": "@gewis/eslint-config-vue",
+  "version": "0.0.0",
+  "description": "Vue ESLint configuration for GEWIS projects",
+  "homepage": "https://github.com/GEWIS/js-configs#readme",
+  "bugs": {
+    "url": "https://github.com/GEWIS/js-configs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GEWIS/js-configs.git"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": "GEWIS",
+  "files" : [
+    "index.mjs"
+  ],
+  "dependencies": {
+    "@vue/eslint-config-typescript": "^14.1.1",
+    "@vue/tsconfig": "^0.5.1",
+    "eslint-plugin-vue": "^9.29.0",
+    "vue-eslint-parser": "^9.4.3"
+  },
+  "peerDependencies": {
+    "eslint": "*"
+  },
+  "packageManager": "yarn@4.5.1"
+}
