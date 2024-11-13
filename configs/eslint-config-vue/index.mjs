@@ -1,4 +1,5 @@
 import vuePlugin from 'eslint-plugin-vue';
+// eslint-disable-next-line import/no-unresolved -- this package is available
 import tsEslint from 'typescript-eslint';
 import vueParser from 'vue-eslint-parser';
 
@@ -8,16 +9,16 @@ const config = [
     languageOptions: {
       parser: vueParser,
       parserOptions: {
-        parser: tsEslint.parser
-      }
+        parser: tsEslint.parser,
+      },
     },
     plugins: {
       vue: vuePlugin,
-    }
+    },
   },
   // Default rules
   {
-    files: ['src/**/*.vue'],
+    files: ['**/*.vue'],
     rules: {
       // Recommended rules
       ...vuePlugin.configs['flat/recommended'].rules,
@@ -27,18 +28,18 @@ const config = [
         'error',
         {
           script: {
-            lang: 'ts'
-          }
-        }
+            lang: 'ts',
+          },
+        },
       ],
       'vue/attributes-order': [
         'error',
         {
-          alphabetical: true
-        }
-      ]
-    }
+          alphabetical: true,
+        },
+      ],
+    },
   },
 ];
 
-export { config as vueConfig }
+export { config as vueConfig };

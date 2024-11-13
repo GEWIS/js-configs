@@ -12,13 +12,12 @@
   },
   "license": "AGPL-3.0-or-later",
   "author": "GEWIS",
-  "files" : [
-    "index.mjs"
-  ],
+  "exports": {
+    ".": "./index.mjs"
+  },
   "dependencies": {
     "@vue/eslint-config-prettier": "^10.0.0",
-    "eslint-config-prettier": "^9.1.0",
-    "prettier": "^3.3.3"
+    "eslint-config-prettier": "^9.1.0"
   },
   "peerDependencies": {
     "eslint": "*",

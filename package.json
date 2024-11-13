@@ -5,12 +5,18 @@
   "version": "0.0.0",
   "scripts": {
     "lint": "eslint .",
-    "lint-fix": "eslint . --fix"
+    "lint-fix": "eslint . --fix",
+    "format": "prettier --ignore-path .gitignore --check .",
+    "format-fix": "prettier --ignore-path .gitignore --write .",
+    "install-all": "yarn install && yarn workspaces foreach -A yarn install"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GEWIS/js-configs.git"
   },
+  "workspaces": [
+    "configs/*"
+  ],
   "author": "GEWIS",
   "license": "AGPL-3.0-or-later",
   "bugs": {
@@ -18,8 +24,12 @@
   },
   "homepage": "https://github.com/GEWIS/js-configs#readme",
   "devDependencies": {
+    "@gewis/eslint-config-typescript": "workspace:^",
+    "@gewis/prettier-config": "workspace:^",
     "eslint": "^9.12.0",
-    "lerna": "^8.1.9"
+    "lerna": "^8.1.9",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
   },
   "packageManager": "yarn@4.5.1"
 }

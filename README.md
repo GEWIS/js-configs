@@ -5,21 +5,23 @@ This repository contains a shared ESLint configuration for use across all GEWIS 
 ## Installation
 
 To use this ESLint configuration in your project, install it using `npm` or `yarn`.
+
 ```bash
 npm install @gewis/eslint-config@github.com:GEWIS/eslint-config --save-dev
 yarn add @gewis/eslint-config@github.com:GEWIS/eslint-config --dev
 ```
 
 ## Usage
+
 The package provides sharable configurations for [ESLint](https://eslint.org/docs/latest/extend/shareable-configs) and
-[prettier](https://prettier.io/docs/en/sharing-configurations) that can be used directly in your project's configuration files. 
+[prettier](https://prettier.io/docs/en/sharing-configurations) that can be used directly in your project's configuration files.
 
 > [!NOTE]  
 > The shared configurations for ESLint are not compatible with ESLint `v8.x`
 
 ### ESLint Configuration
 
-In your project's root directory, create or update the `eslint.config.{js,mjs,cjs,ts,mts,cts}` file to extend this configuration. 
+In your project's root directory, create or update the `eslint.config.{js,mjs,cjs,ts,mts,cts}` file to extend this configuration.
 You can pick a combination of various configuration files:
 
 - `index.mjs`
@@ -43,7 +45,7 @@ of the shared configurations in your config file. It is also possible to add you
 
 ### Prettier Configuration
 
-In your project's root directory, create or update the `.prettierrc.mjs` file to extend this configuration. 
+In your project's root directory, create or update the `.prettierrc.mjs` file to extend this configuration.
 There is a single [shared prettier configuration](https://prettier.io/docs/en/sharing-configurations) available; `prettier.config.mjs`.
 
 ```javascript
@@ -75,9 +77,10 @@ Make sure to define the lint and format script in your `package.json`.
 }
 ```
 
-You can now lint and format your files using the configured rules and scripts. 
+You can now lint and format your files using the configured rules and scripts.
 
 ## Contributing
+
 Contributions are welcome! Please open an issue or submit a pull request if you'd like to suggest changes or improvements.
 
 ### Updating the Configuration
