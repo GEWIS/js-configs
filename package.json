@@ -1,6 +1,6 @@
 {
-  "name": "@gewis/eslint-config",
-  "description": "ESLint configuration for GEWIS projects",
+  "name": "@gewis/js-configs",
+  "description": "JavaScript configurations for GEWIS projects",
   "main": "eslint.common.mjs",
   "version": "0.0.0",
   "packageManager": "yarn@4.5.1",
@@ -30,12 +30,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GEWIS/eslint-config.git"
+    "url": "git+https://github.com/GEWIS/js-configs.git"
   },
   "author": "GEWIS",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/GEWIS/eslint-config/issues"
+    "url": "https://github.com/GEWIS/js-configs/issues"
   },
-  "homepage": "https://github.com/GEWIS/eslint-config#readme"
+  "homepage": "https://github.com/GEWIS/js-configs#readme"
 }
