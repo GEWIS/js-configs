@@ -1,6 +1,6 @@
 {
   "name": "@gewis/prettier-config",
-  "version": "0.0.0",
+  "version": "3.0.0",
   "description": "Prettier configuration for GEWIS projects",
   "homepage": "https://github.com/GEWIS/js-configs#readme",
   "bugs": {

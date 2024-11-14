@@ -1,6 +1,6 @@
 {
   "name": "@gewis/eslint-config-javascript",
-  "version": "0.0.0",
+  "version": "3.0.0",
   "description": "JavaScript ESLint configuration for GEWIS projects",
   "homepage": "https://github.com/GEWIS/js-configs#readme",
   "bugs": {
