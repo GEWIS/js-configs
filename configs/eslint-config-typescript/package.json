@@ -1,6 +1,6 @@
 {
   "name": "@gewis/eslint-config-typescript",
-  "version": "3.0.0",
+  "version": "2.2.0",
   "description": "TypeScript ESLint configuration for GEWIS projects",
   "homepage": "https://github.com/GEWIS/js-configs#readme",
   "bugs": {
