@@ -1,0 +1,24 @@
+{
+  "name": "@gewis/release-config",
+  "version": "3.0.0",
+  "description": "Release configuration for GEWIS projects",
+  "homepage": "https://github.com/GEWIS/js-configs#readme",
+  "bugs": {
+    "url": "https://github.com/GEWIS/js-configs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GEWIS/js-configs.git",
+    "directory": "configs/release-config"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": "GEWIS",
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "packageManager": "yarn@4.5.1"
+}
