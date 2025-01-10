@@ -23,3 +23,6 @@ jobs:
       node-version: '22.x'
       version: ${{ needs.versioning.outputs.next-version }}
       lerna: 'true'
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
