@@ -16,10 +16,13 @@ jobs:
       dry-run: 'true'
 
   publish-npm:
-    uses: GEWIS/actions/.github/workflows/npm-release.yml@Feature/npm-release-npmjs
+    uses: GEWIS/actions/.github/workflows/npm-release.yml@v1
     needs: versioning
     if: ${{ needs.versioning.outputs.next-version != '' }}
     with:
       node-version: '22.x'
       version: ${{ needs.versioning.outputs.next-version }}
       lerna: 'true'
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+

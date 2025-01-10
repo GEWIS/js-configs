@@ -13,7 +13,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org"
   },
   "license": "AGPL-3.0-or-later",
   "author": "GEWIS",
