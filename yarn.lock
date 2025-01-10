@@ -217,6 +217,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@gewis/release-config@workspace:configs/release-config":
+  version: 0.0.0-use.local
+  resolution: "@gewis/release-config@workspace:configs/release-config"
+  languageName: unknown
+  linkType: soft
+
 "@humanfs/core@npm:^0.19.1":
   version: 0.19.1
   resolution: "@humanfs/core@npm:0.19.1"

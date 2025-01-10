@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - 'main'
+
   pull_request:
     branches:
       - 'main'
@@ -15,7 +16,7 @@ jobs:
       dry-run: 'true'
 
   publish-npm:
-    uses: GEWIS/actions/.github/workflows/npm-release.yml@v1
+    uses: GEWIS/actions/.github/workflows/npm-release.yml@Feature/npm-release-npmjs
     needs: versioning
     if: ${{ needs.versioning.outputs.next-version != '' }}
     with:
