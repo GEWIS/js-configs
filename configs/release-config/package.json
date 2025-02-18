@@ -20,5 +20,10 @@
   "exports": {
     ".": "./index.mjs"
   },
+  "files": [
+    "index.mjs",
+    "package.json",
+    "README.md"
+  ],
   "packageManager": "yarn@4.5.1"
 }

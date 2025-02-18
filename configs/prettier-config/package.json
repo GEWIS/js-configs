@@ -20,6 +20,11 @@
   "exports": {
     ".": "./index.mjs"
   },
+  "files": [
+    "index.mjs",
+    "package.json",
+    "README.md"
+  ],
   "dependencies": {
     "@vue/eslint-config-prettier": "^10.0.0",
     "eslint-config-prettier": "^9.1.0"
