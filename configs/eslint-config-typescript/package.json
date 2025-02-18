@@ -1,6 +1,6 @@
 {
   "name": "@gewis/eslint-config-typescript",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "TypeScript ESLint configuration for GEWIS projects",
   "homepage": "https://github.com/GEWIS/js-configs#readme",
   "bugs": {
@@ -20,6 +20,11 @@
   "exports": {
     ".": "./index.mjs"
   },
+  "files": [
+    "index.mjs",
+    "package.json",
+    "README.md"
+  ],
   "dependencies": {
     "@eslint/compat": "^1.2.2",
     "@eslint/js": "^9.12.0",

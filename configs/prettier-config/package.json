@@ -1,6 +1,6 @@
 {
   "name": "@gewis/prettier-config",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Prettier configuration for GEWIS projects",
   "homepage": "https://github.com/GEWIS/js-configs#readme",
   "bugs": {
@@ -20,6 +20,11 @@
   "exports": {
     ".": "./index.mjs"
   },
+  "files": [
+    "index.mjs",
+    "package.json",
+    "README.md"
+  ],
   "dependencies": {
     "@vue/eslint-config-prettier": "^10.0.0",
     "eslint-config-prettier": "^9.1.0"

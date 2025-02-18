@@ -1,6 +1,6 @@
 {
   "name": "@gewis/release-config",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Release configuration for GEWIS projects",
   "homepage": "https://github.com/GEWIS/js-configs#readme",
   "bugs": {
@@ -20,5 +20,10 @@
   "exports": {
     ".": "./index.mjs"
   },
+  "files": [
+    "index.mjs",
+    "package.json",
+    "README.md"
+  ],
   "packageManager": "yarn@4.5.1"
 }

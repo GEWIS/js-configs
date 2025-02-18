@@ -1,6 +1,6 @@
 {
   "name": "@gewis/eslint-config-react",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "React ESLint configuration for GEWIS projects",
   "homepage": "https://github.com/GEWIS/js-configs#readme",
   "bugs": {
@@ -20,6 +20,11 @@
   "exports": {
     ".": "./index.mjs"
   },
+  "files": [
+    "index.mjs",
+    "package.json",
+    "README.md"
+  ],
   "dependencies": {
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.2",
