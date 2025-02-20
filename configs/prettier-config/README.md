@@ -14,19 +14,16 @@ yarn add @gewis/prettier-config --dev
 In your ESLint configuration file, add the following:
 
 ```javascript
-import  { eslintConfig as common } from '@gewis/eslint-config-typescript';
-import  { eslintConfig as prettier } from '@gewis/prettier-config';
+import { eslintConfig as common } from '@gewis/eslint-config-typescript';
+import { eslintConfig as prettier } from '@gewis/prettier-config';
 
-export default [
-  ...common,
-  prettier
-];
+export default [...common, prettier];
 ```
 
 In your Prettier configuration file, add the following:
 
 ```javascript
-import  { prettierConfig } from '@gewis/prettier-config';
+import { prettierConfig } from '@gewis/prettier-config';
 
 /**
  * @type {import("prettier").Config}

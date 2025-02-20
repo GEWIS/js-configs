@@ -1,6 +1,6 @@
 import path from 'node:path';
 import eslint from '@eslint/js';
-// eslint-disable-next-line import/no-unresolved -- this package is available
+// eslint-disable-next-line import/no-unresolved -- import is resolved
 import tsEslint from 'typescript-eslint';
 import importPlugin from 'eslint-plugin-import';
 
@@ -57,4 +57,5 @@ const config = [
   },
 ];
 
+// eslint-disable-next-line import/prefer-default-export -- prefer named export here
 export { config as eslintConfig };
