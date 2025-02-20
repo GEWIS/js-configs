@@ -1,6 +1,6 @@
 {
   "name": "@gewis/eslint-config-typescript",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "TypeScript ESLint configuration for GEWIS projects",
   "homepage": "https://github.com/GEWIS/js-configs#readme",
   "bugs": {
@@ -26,12 +26,12 @@
     "README.md"
   ],
   "dependencies": {
-    "@eslint/compat": "^1.2.2",
-    "@eslint/js": "9.14.0",
+    "@eslint/compat": "^1.2.6",
+    "@eslint/js": "9.20.0",
     "@types/eslint__js": "^8.42.3",
-    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-import-resolver-typescript": "^3.8.3",
     "eslint-plugin-import": "^2.31.0",
-    "typescript-eslint": "^8.15.0"
+    "typescript-eslint": "^8.24.1"
   },
   "peerDependencies": {
     "eslint": "*"

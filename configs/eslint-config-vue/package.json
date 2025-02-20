@@ -1,6 +1,6 @@
 {
   "name": "@gewis/eslint-config-vue",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "Vue ESLint configuration for GEWIS projects",
   "homepage": "https://github.com/GEWIS/js-configs#readme",
   "bugs": {
@@ -26,9 +26,9 @@
     "README.md"
   ],
   "dependencies": {
-    "@vue/eslint-config-typescript": "^14.1.1",
-    "eslint-plugin-vue": "^9.29.0",
-    "typescript-eslint": "^8.15.0",
+    "@vue/eslint-config-typescript": "^14.4.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "typescript-eslint": "^8.24.1",
     "vue-eslint-parser": "^9.4.3"
   },
   "peerDependencies": {
