@@ -25,4 +25,3 @@ jobs:
       lerna: 'true'
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-

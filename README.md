@@ -8,7 +8,8 @@ This repository contains shared configurations for use across all GEWIS projects
 > [!NOTE]  
 > The shared configurations for ESLint are not compatible with ESLint `v8.x`
 
-### ESLint 
+### ESLint
+
 In your project's root directory, create or update the `eslint.config.{js,mjs,cjs,ts,mts,cts}` file to extend this configuration.
 You can pick a combination of various configuration files:
 

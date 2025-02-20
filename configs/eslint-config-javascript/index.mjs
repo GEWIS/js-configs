@@ -3,6 +3,7 @@ import eslint from '@eslint/js';
 import importPlugin from 'eslint-plugin-import';
 
 import { includeIgnoreFile } from '@eslint/compat';
+import { FlatCompat } from '@eslint/eslintrc';
 
 const config = [
   includeIgnoreFile(path.resolve('.gitignore')),
@@ -34,4 +35,7 @@ const config = [
   },
 ];
 
-export { config as eslintConfig };
+const compat = new FlatCompat();
+const strictConfig = [...compat.extends('airbnb-base'), ...config];
+
+export { config as eslintConfig, strictConfig as eslintConfigStrict };

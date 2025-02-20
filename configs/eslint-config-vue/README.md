@@ -10,14 +10,12 @@ yarn add @gewis/eslint-config-vue --dev
 ```
 
 ## Configuration
+
 In your ESLint configuration file, add the following:
 
 ```javascript
-import  { eslintConfig as common } from '@gewis/eslint-config-typescript';
-import  { eslintConfig as vue } from '@gewis/eslint-config-vue';
+import { eslintConfig as common } from '@gewis/eslint-config-typescript';
+import { eslintConfig as vue } from '@gewis/eslint-config-vue';
 
-export default [
-  ...common,
-  ...vue
-];
+export default [...common, ...vue];
 ```
