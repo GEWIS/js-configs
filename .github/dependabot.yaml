@@ -1,14 +1,76 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    target-branch: "develop"
+    assignees:
+      - "Gijsdeman"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+
+  - package-ecosystem: "npm"
     directories:
-      - "."
-      - "configs/eslint-config-javascript"
-      - "configs/eslint-config-react"
-      - "configs/eslint-config-typescript"
-      - "configs/eslint-config-vue"
-      - "configs/prettier-config"
-      - "configs/release-config"
+      - "/configs/eslint-config-javascript"
+    schedule:
+      interval: "weekly"
+    target-branch: "develop"
+    assignees:
+      - "Gijsdeman"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+
+  - package-ecosystem: "npm"
+    directory: "/configs/eslint-config-react"
+    schedule:
+      interval: "weekly"
+    target-branch: "develop"
+    assignees:
+      - "Gijsdeman"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+
+
+  - package-ecosystem: "npm"
+    directory: "/configs/eslint-config-typescript"
+    schedule:
+      interval: "weekly"
+    target-branch: "develop"
+    assignees:
+      - "Gijsdeman"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+
+
+  - package-ecosystem: "npm"
+    directory: "/configs/eslint-config-vue"
+    schedule:
+      interval: "weekly"
+    target-branch: "develop"
+    assignees:
+      - "Gijsdeman"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+
+  - package-ecosystem: "npm"
+    directory: "/configs/prettier-config"
+    schedule:
+      interval: "weekly"
+    target-branch: "develop"
+    assignees:
+      - "Gijsdeman"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+
+  - package-ecosystem: "npm"
+    directory: "/configs/release-config"
     schedule:
       interval: "weekly"
     target-branch: "develop"
