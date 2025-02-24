@@ -3,6 +3,12 @@ updates:
   - package-ecosystem: "npm"
     directories:
       - "."
+      - "configs/eslint-config-javascript"
+      - "configs/eslint-config-react"
+      - "configs/eslint-config-typescript"
+      - "configs/eslint-config-vue"
+      - "configs/prettier-config"
+      - "configs/release-config"
     schedule:
       interval: "weekly"
     target-branch: "develop"
