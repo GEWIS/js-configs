@@ -26,7 +26,7 @@ const config = [
       semi: ['error', 'always'],
       'object-curly-spacing': ['error', 'always'],
       'linebreak-style': ['error', 'unix'],
-      'no-console': ['warn', { allow: ['warn', 'error'] }],
+      'no-console': ['error', { allow: ['info', 'warn', 'error'] }],
     },
   },
   // Plugin by plugin for better overview
