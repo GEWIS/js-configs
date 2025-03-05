@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/GEWIS/js-configs#readme",
   "devDependencies": {
-    "@gewis/eslint-config-typescript": "workspace:^",
+    "@gewis/eslint-config-javascript": "workspace:^",
     "@gewis/prettier-config": "workspace:^",
     "eslint": "^9.21.0",
     "lerna": "^8.2.0",

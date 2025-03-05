@@ -15,5 +15,5 @@ const releaseConfig = {
   ],
 };
 
-// eslint-disable-next-line import/prefer-default-export -- prefer named export here
+ 
 export { releaseConfig };

@@ -66,5 +66,5 @@ const config = [
   },
 ];
 
-// eslint-disable-next-line import/prefer-default-export -- prefer named export here
+ 
 export { config as eslintConfig };
