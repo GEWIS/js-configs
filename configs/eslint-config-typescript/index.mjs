@@ -7,6 +7,7 @@ import importPlugin from 'eslint-plugin-import';
 import { includeIgnoreFile } from '@eslint/compat';
 
 const config = [
+  // Ignored
   includeIgnoreFile(path.resolve('.gitignore')),
   eslint.configs.recommended,
   ...tsEslint.configs.recommendedTypeChecked,
@@ -20,7 +21,7 @@ const config = [
   },
   // Default rules
   {
-    files: ['**/*.{ts,tsx,mts,cts,vue}'],
+    files: ['**/*.{ts,tsx,mts,cts,js,jsx,mjs,cjs,vue}'],
     rules: {
       'max-len': ['warn', { code: 120 }],
       semi: ['error', 'always'],
@@ -32,7 +33,7 @@ const config = [
   // Plugin by plugin for better overview
   // Import plugin configuration
   {
-    files: ['**/*.{ts,tsx,mts,cts,vue}'],
+    files: ['**/*.{ts,tsx,mts,cts,js,jsx,mjs,cjs,vue}'],
     plugins: {
       import: importPlugin,
     },
@@ -53,18 +54,26 @@ const config = [
       'import/named': 'off',
       'import/order': ['warn'],
       'import/first': ['warn'],
-      'import/extensions': ['error', 'ignorePackages', { 
-        "js": "never",
-        "jsx": "never",
-        "ts": "never",
-        "tsx": "never",
-        "mjs": "never",
-        "cjs": "never",
-        "vue": "never",
-      }],
+      'import/extensions': [
+        'error',
+        'ignorePackages',
+        {
+          js: 'never',
+          jsx: 'never',
+          ts: 'never',
+          tsx: 'never',
+          mjs: 'never',
+          cjs: 'never',
+          vue: 'never',
+        },
+      ],
     },
+  },
+  // Disable TypeChecks for js files
+  {
+    files: ['**/*.{js,jsx,mjs,cjs}'],
+    ...tsEslint.configs.disableTypeChecked,
   },
 ];
 
- 
 export { config as eslintConfig };
