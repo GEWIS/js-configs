@@ -1,6 +1,6 @@
 {
   "name": "@gewis/eslint-config-vue",
-  "version": "2.2.3",
+  "version": "2.3.0",
   "description": "Vue ESLint configuration for GEWIS projects",
   "homepage": "https://github.com/GEWIS/js-configs#readme",
   "bugs": {
