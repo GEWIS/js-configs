@@ -1,0 +1,30 @@
+{
+  "name": "@gewis/tsconfig",
+  "version": "2.2.2",
+  "description": "GEWIS base TypeScript configuration.",
+  "homepage": "https://github.com/GEWIS/js-configs#readme",
+  "bugs": {
+    "url": "https://github.com/GEWIS/js-configs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GEWIS/js-configs.git",
+    "directory": "configs/tsconfig"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": "GEWIS",
+  "main": "tsconfig.json",
+  "exports": {
+    ".": "./tsconfig.json"
+  },
+  "files": [
+    "tsconfig.json",
+    "package.json",
+    "README.md"
+  ],
+  "packageManager": "yarn@4.5.1"
+}
