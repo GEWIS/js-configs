@@ -15,7 +15,7 @@
 
     /* Modules */
     "baseUrl": ".",
-    "module": "esnext",
+    "module": "commonjs",
     "moduleResolution": "node",
     "noUncheckedSideEffectImports": true,
     "resolveJsonModule": true,
@@ -28,7 +28,7 @@
     "allowJs": false,
 
     /* Interop Constraints */
-    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
 
     /* Language and Environment */
