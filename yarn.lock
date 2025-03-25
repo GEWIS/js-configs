@@ -231,6 +231,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@gewis/splash@workspace:configs/splash":
+  version: 0.0.0-use.local
+  resolution: "@gewis/splash@workspace:configs/splash"
+  languageName: unknown
+  linkType: soft
+
 "@gewis/tsconfig@workspace:configs/tsconfig":
   version: 0.0.0-use.local
   resolution: "@gewis/tsconfig@workspace:configs/tsconfig"
