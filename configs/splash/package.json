@@ -1,0 +1,30 @@
+{
+  "name": "@gewis/splash",
+  "version": "2.3.1",
+  "description": "JavaScript plugin for displaying an ASCII logo and organization info in the frontend browser console for GEWIS projects.",
+  "homepage": "https://github.com/GEWIS/js-configs#readme",
+  "bugs": {
+    "url": "https://github.com/GEWIS/js-configs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GEWIS/js-configs.git",
+    "directory": "configs/splash"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": "GEWIS",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md",
+    "ascii.txt"
+  ],
+  "packageManager": "yarn@4.5.1"
+}
