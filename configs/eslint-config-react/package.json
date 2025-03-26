@@ -1,6 +1,6 @@
 {
   "name": "@gewis/eslint-config-react",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "React ESLint configuration for GEWIS projects",
   "homepage": "https://github.com/GEWIS/js-configs#readme",
   "bugs": {

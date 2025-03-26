@@ -1,4 +1,3 @@
- 
 import { prettierConfig } from '@gewis/prettier-config';
 
 /**

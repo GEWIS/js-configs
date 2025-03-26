@@ -1,6 +1,6 @@
 {
   "name": "@gewis/tsconfig",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "description": "GEWIS base TypeScript configuration.",
   "homepage": "https://github.com/GEWIS/js-configs#readme",
   "bugs": {

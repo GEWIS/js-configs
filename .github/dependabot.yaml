@@ -1,81 +1,79 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: 'npm'
+    directory: '/'
     schedule:
-      interval: "weekly"
-    target-branch: "develop"
+      interval: 'weekly'
+    target-branch: 'develop'
     assignees:
-      - "Gijsdeman"
+      - 'Gijsdeman'
     ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
 
-  - package-ecosystem: "npm"
+  - package-ecosystem: 'npm'
     directories:
-      - "/configs/eslint-config-javascript"
+      - '/configs/eslint-config-javascript'
     schedule:
-      interval: "weekly"
-    target-branch: "develop"
+      interval: 'weekly'
+    target-branch: 'develop'
     assignees:
-      - "Gijsdeman"
+      - 'Gijsdeman'
     ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
 
-  - package-ecosystem: "npm"
-    directory: "/configs/eslint-config-react"
+  - package-ecosystem: 'npm'
+    directory: '/configs/eslint-config-react'
     schedule:
-      interval: "weekly"
-    target-branch: "develop"
+      interval: 'weekly'
+    target-branch: 'develop'
     assignees:
-      - "Gijsdeman"
+      - 'Gijsdeman'
     ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
 
-
-  - package-ecosystem: "npm"
-    directory: "/configs/eslint-config-typescript"
+  - package-ecosystem: 'npm'
+    directory: '/configs/eslint-config-typescript'
     schedule:
-      interval: "weekly"
-    target-branch: "develop"
+      interval: 'weekly'
+    target-branch: 'develop'
     assignees:
-      - "Gijsdeman"
+      - 'Gijsdeman'
     ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
 
-
-  - package-ecosystem: "npm"
-    directory: "/configs/eslint-config-vue"
+  - package-ecosystem: 'npm'
+    directory: '/configs/eslint-config-vue'
     schedule:
-      interval: "weekly"
-    target-branch: "develop"
+      interval: 'weekly'
+    target-branch: 'develop'
     assignees:
-      - "Gijsdeman"
+      - 'Gijsdeman'
     ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
 
-  - package-ecosystem: "npm"
-    directory: "/configs/prettier-config"
+  - package-ecosystem: 'npm'
+    directory: '/configs/prettier-config'
     schedule:
-      interval: "weekly"
-    target-branch: "develop"
+      interval: 'weekly'
+    target-branch: 'develop'
     assignees:
-      - "Gijsdeman"
+      - 'Gijsdeman'
     ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
 
-  - package-ecosystem: "npm"
-    directory: "/configs/release-config"
+  - package-ecosystem: 'npm'
+    directory: '/configs/release-config'
     schedule:
-      interval: "weekly"
-    target-branch: "develop"
+      interval: 'weekly'
+    target-branch: 'develop'
     assignees:
-      - "Gijsdeman"
+      - 'Gijsdeman'
     ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
