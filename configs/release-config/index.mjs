@@ -15,5 +15,4 @@ const releaseConfig = {
   ],
 };
 
- 
 export { releaseConfig };

@@ -30,13 +30,17 @@ const config = [
       'import/named': 'off',
       'import/order': ['warn'],
       'import/first': ['warn'],
-      'import/extensions': ['error', 'ignorePackages', { 
-        "js": "never",
-        "jsx": "never",
-        "mjs": "never",
-        "cjs": "never",
-        "vue": "never",
-      }],
+      'import/extensions': [
+        'error',
+        'ignorePackages',
+        {
+          js: 'never',
+          jsx: 'never',
+          mjs: 'never',
+          cjs: 'never',
+          vue: 'never',
+        },
+      ],
     },
   },
 ];
