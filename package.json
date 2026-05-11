@@ -26,10 +26,10 @@
   "devDependencies": {
     "@gewis/eslint-config-javascript": "workspace:^",
     "@gewis/prettier-config": "workspace:^",
-    "eslint": "^9.21.0",
-    "lerna": "^8.2.0",
-    "prettier": "^3.5.2",
-    "typescript": "^5.7.3"
+    "eslint": "10.3.0",
+    "lerna": "8.2.4",
+    "prettier": "3.7.4",
+    "typescript": "5.9.3"
   },
   "packageManager": "yarn@4.5.1"
 }

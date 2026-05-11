@@ -26,12 +26,12 @@
     "README.md"
   ],
   "dependencies": {
-    "eslint-plugin-jsx-a11y": "^6.10.2",
-    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-jsx-a11y": "6.10.2",
+    "eslint-plugin-react": "7.37.4",
     "eslint-plugin-react-hooks": "5.2.0"
   },
   "peerDependencies": {
-    "eslint": "*"
+    "eslint": ">=10"
   },
   "packageManager": "yarn@4.5.1"
 }

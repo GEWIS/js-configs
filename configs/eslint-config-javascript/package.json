@@ -26,12 +26,12 @@
     "README.md"
   ],
   "dependencies": {
-    "@eslint/compat": "^1.2.7",
-    "@eslint/js": "^9.21.0",
-    "eslint-plugin-import": "^2.31.0"
+    "@eslint/compat": "2.1.0",
+    "@eslint/js": "10.0.1",
+    "eslint-plugin-import": "2.31.0"
   },
   "peerDependencies": {
-    "eslint": "*"
+    "eslint": ">=10"
   },
   "packageManager": "yarn@4.5.1"
 }

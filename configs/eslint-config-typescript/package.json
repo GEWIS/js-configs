@@ -26,14 +26,14 @@
     "README.md"
   ],
   "dependencies": {
-    "@eslint/compat": "^1.2.7",
-    "@eslint/js": "9.39.2",
-    "eslint-import-resolver-typescript": "^3.8.3",
-    "eslint-plugin-import": "^2.31.0",
-    "typescript-eslint": "^8.25.0"
+    "@eslint/compat": "2.1.0",
+    "@eslint/js": "10.0.1",
+    "eslint-import-resolver-typescript": "3.8.3",
+    "eslint-plugin-import": "2.31.0",
+    "typescript-eslint": "8.59.3"
   },
   "peerDependencies": {
-    "eslint": "*"
+    "eslint": ">=10"
   },
   "packageManager": "yarn@4.5.1"
 }
