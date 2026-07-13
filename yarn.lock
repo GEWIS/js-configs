@@ -165,6 +165,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eslint/js@npm:9.39.5":
+  version: 9.39.5
+  resolution: "@eslint/js@npm:9.39.5"
+  checksum: 10c0/49894e98ba313a7d3bfb1b20d55c0f9826be45a7db876fd84e533ac7f101b1d95b51cd22c6a6db3a45066b9c0d068c31b4a22fa0db8a6cc8744a25540efdb824
+  languageName: node
+  linkType: hard
+
 "@eslint/object-schema@npm:^2.1.7":
   version: 2.1.7
   resolution: "@eslint/object-schema@npm:2.1.7"
@@ -211,7 +218,7 @@ __metadata:
   resolution: "@gewis/eslint-config-typescript@workspace:configs/eslint-config-typescript"
   dependencies:
     "@eslint/compat": "npm:^1.2.7"
-    "@eslint/js": "npm:9.39.4"
+    "@eslint/js": "npm:9.39.5"
     eslint-import-resolver-typescript: "npm:^3.8.3"
     eslint-plugin-import: "npm:^2.31.0"
     typescript-eslint: "npm:^8.25.0"
